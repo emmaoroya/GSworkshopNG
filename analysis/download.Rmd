@@ -1,0 +1,18 @@
+---
+title: "download"
+author: "emmaoroya"
+date: "2022-03-24"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Download data from cassavabase
+
+```{r Example of requesting data from R}
+
+data(iris)
+head(iris)
+colMeans(iris[,-5])
+```
+
